@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "dest": "dist",
+        "main": "App.js",
+        "includedFiles": [
+            "src/*.ts"
+        ]
+    }
+}
