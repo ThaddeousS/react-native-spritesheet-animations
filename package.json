@@ -1,0 +1,33 @@
+{
+  "name": "react-native-spritesheet-animations",
+  "version": "1.0.0",
+  "description": "Typescript library for react native sprite sheet animations",
+  "main": "App.js",
+  "scripts": {
+    "build_dev": "gulp build --env dev",
+    "start_dev": "npm run build_dev && open dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThaddeousS/react-native-spritesheet-animations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThaddeousS/react-native-spritesheet-animations/issues"
+  },
+  "homepage": "https://github.com/ThaddeousS/react-native-spritesheet-animations#readme",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "glob": "^7.1.4",
+    "gulp": "^4.0.2",
+    "gulp-exec": "^3.0.2",
+    "gulp-typescript": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "tsify": "^4.0.1",
+    "typescript": "^3.5.2",
+    "vinyl": "^2.2.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
